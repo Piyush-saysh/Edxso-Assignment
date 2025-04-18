@@ -1,7 +1,7 @@
 // App.jsx
 import React, { useState } from "react";
 
-const Matrix = () => {
+const App = () => {
   const [clickedOrder, setClickedOrder] = useState([]);
   const [finalized, setFinalized] = useState(false);
 
@@ -65,4 +65,4 @@ const Matrix = () => {
   );
 };
 
-export default Matrix;
+export default App;
